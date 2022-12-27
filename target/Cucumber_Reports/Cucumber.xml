@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="11.421">
+    <testcase classname="Search for an item" name="Search for stainless work table" time="11.271">
+        <system-out>
+            <![CDATA[Given open browser..........................................................passed
+When User search for "stainless work table".................................passed
+And User click search button................................................passed
+Then All the items with table name will show up.............................passed
+Then Add the last of found items to Cart....................................passed
+Then Empty cart.............................................................passed
+Then Your cart is Empty is displayed........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
