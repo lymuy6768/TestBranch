@@ -10,7 +10,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 			plugin = {"pretty", "json:target/JSON_Reports/Cucumber.json",
 	                "junit:target/Cucumber_Reports/Cucumber.xml",
-	        "html:target/HTML_Reports/index.html"},
+	        "html:target/HTML_Reports/index.html"}, 
 			monochrome = true,
 			features = "src/test/resources/features",
 			glue = {"stepDef"}, 
